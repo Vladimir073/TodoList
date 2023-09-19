@@ -1,7 +1,6 @@
 {
-  "name": "my-todos-app",
+  "name": "my-todo-app",
   "version": "0.1.0",
-  "homepage": "https://Vladimir073.github.io/TodoList",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",

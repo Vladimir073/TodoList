@@ -1,7 +1,7 @@
 import { SInput, SList } from '../assets/styles/app.styles';
 import { IDataMoko } from '../types/IDataMoko';
 import { dataMoko } from '../data/Data';
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { Todo } from './Todo';
 import { Button } from './UI/Button';
 import { v4 as uuidv4 } from 'uuid';
