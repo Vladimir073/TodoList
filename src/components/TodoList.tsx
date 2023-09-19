@@ -30,7 +30,8 @@ export const TodoList = () => {
     // }, [isActiveTab, newListTodo]);
 
     useEffect(() => {
-        if (localStorage.length) {
+        console.log(localStorage.getItem('newListTodo') !== null);
+        if (localStorage.length > 0) {
             setNewListTodo(JSON.parse(localStorage.getItem('newListTodo') || ''));
         } else {
             setNewListTodo(dataMoko);
